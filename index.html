@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="slideshow" id="slideshow">
+            <div class="slideshowarea">
+                <div class="slide"><img src="assets/image/html.png"></div>
+                <div class="slide"><img src="assets/image/css.png"></div>
+                <div class="slide"><img src="assets/image/group.png"></div>
+            </div>
+        </div>
+        <div class="prev">
+            <svg>
+                <use xlink:href="assets/image/icon/feather-sprite.svg#chevron-left"/>
+            </svg>
+        </div>
+        <div class="sliters">
+            <div class="slit ativo" onclick="mudar(0)"></div>
+            <div class="slit" onclick="mudar(1)"></div>
+            <div class="slit" onclick="mudar(2)"></div>
+        </div>
+        <div class="next">
+            <svg>
+                <use xlink:href="assets/image/icon/feather-sprite.svg#chevron-right"/>
+            </svg>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
